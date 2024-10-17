@@ -67,23 +67,35 @@
                     <div class="separador-titulo"></div>      
                     <h2>
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </h2>     
-                </div>                
+                    </h2>   
+                    <img class="flecha" src="./img/flecha-bajar.png" alt="" width="100%">      
+                </div>
+                   
+                <div class="box-numeros-emergencia">
+                    <p>Números de emergencia</p>
+                    <ul>
+                        <li>
+                            <h5>
+                                <span>111</span>
+                                lucha contra la extorsión
+                            </h5>
+                        </li>
+                        <li>
+                            <h5>
+                                <span>105</span>
+                                Policía
+                            </h5>
+                        </li>
+                    </ul>
+                </div>                     
             </div>
-            <img class="flecha" src="./img/flecha-bajar.png" alt="" width="100%">            
-        </div>
-        <div class="box-main-contador">
-            <img src="./img/punto-blanco.png" alt="" width="100%">
-            <p>
-                <span id="day-counter">19 días</span>
-                sin solución
-            </p>
+            
+            
         </div>
         <video src="./video/video-portada.mp4" width="100%" muted autoplay loop></video>
     </div>
     
-    <div class="main">           
-             
+    <div class="main"> 
             
     </div>
 	   
@@ -97,26 +109,7 @@
             });
         });
 
-    </script>
-
-    <!-- contador -->
-    <script>
-        function daysSince(dateString) {
-            const startDate = new Date(dateString); // Fecha de inicio
-            const today = new Date(); // Fecha actual
-            const timeDiff = today - startDate; // Diferencia en milisegundos
-            const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24)); // Diferencia en días
-            return daysDiff;
-        }
-    
-        function updateCounter() {
-            const days = daysSince("2024-09-28"); // Fecha de inicio
-            document.getElementById("day-counter").textContent = `${days} días`;
-        }
-    
-        
-        window.onload = updateCounter;
-    </script>
+    </script>    
 
 </body>
 </html>
