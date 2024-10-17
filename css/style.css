@@ -428,6 +428,7 @@ body{
     }    
     .bajada h1{
         font-size: 2.5rem;
+        max-width: 320px;
     }
     h2{
         font-size: 1.1em;
