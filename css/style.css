@@ -227,11 +227,12 @@ body{
             font: 20px/1.4 'prelomedium';
             margin: 10px auto 25px;
         }
+    .bajada h2,
     .main h2{
-        color: #7E7E7E;
+        color: #fff;
         font: 17px/1.7 'prelomedium';
         font-weight: 500;
-        margin: 50px auto;
+        margin: 35px auto;
         max-width: 400px;
         text-align: center;
     }
@@ -424,7 +425,8 @@ body{
             width: 100%;            
         }
             .bajada h2{
-                font-size: 22px;
+                font-size: 20px;
+                padding: 0 20px;
             }
             
     .box-alcalde{
