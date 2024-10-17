@@ -435,7 +435,7 @@ body{
     }
 
     .box-cabecera{
-        background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/fujimori-muerte/img/bg-portada-movil.jpg) no-repeat center top;
+        /*background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/fujimori-muerte/img/bg-portada-movil.jpg) no-repeat center top;*/
         background-size: cover;
     }
 
