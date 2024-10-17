@@ -1,0 +1,753 @@
+html, 
+body{
+
+    box-sizing: border-box;    
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'prelomedium';
+    src: url('../fonts/prelo-medium-webfont.woff2') format('woff2'),
+         url('../fonts/prelo-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'preloblack';
+    src: url('../fonts/prelo-black-webfont.woff2') format('woff2'),
+         url('../fonts/prelo-black-webfont.woff') format('woff');
+}
+
+
+
+.clear{
+    clear: both;
+}
+
+#header{
+    margin-bottom: 50px;
+    width: 100%;
+}
+    .header-comercio{   
+        /*background: #000; */
+        padding: 5px 0;
+        position: relative;
+        width: 100%;
+        z-index: 9999999;
+    }
+        .ctn-header-comercio{
+            margin: 0 auto;     
+            max-width: 1024px;
+            padding: 0 5px;
+        }
+            .ctn-header-comercio a{
+                display: inline-block;                
+                text-indent: -9999px;
+            }
+                a.logo-comercio{
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/somos-35-anos-mejores-portadas-ecpm/img/logo-comercio.png?v2) no-repeat 0 0;
+                    background-size: 100%;
+                    height: 30px;
+                    margin-top: 10px;
+                    width: 110px;
+                }
+                #social,
+                #social-2{
+                    float: right;
+                }
+                     #social ul,
+                     #social-2 ul{
+                        display: inline-block;
+                        margin: 0 auto;
+                        padding: 0;
+                        vertical-align: middle;
+                    }
+                        #social ul li,
+                        #social-2 ul li{
+                            display: inline-block;
+                            margin: 0 3px;
+                            vertical-align: middle;
+                        }
+                            #social ul li a,
+                            #social-2 ul li a{
+                                height: 36px;
+                                width: 36px;
+                            }
+                            #fb{
+                                background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/fb-icon.png?v2) no-repeat 0 0;
+                                background-size: 100% !important;
+                                border: none;
+                                display: inline-block;
+                                height: 36px;
+                                text-indent: -9999px;
+                                width: 36px;
+                            }
+                            #wst{                
+                                background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
+                                background-size: 100% !important;
+                                border: none;
+                                display: none;
+                                height: 36px;
+                                text-indent: -9999px;
+                                width: 36px;
+                            }
+                            #tw{            
+                                background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
+                                background-size: 100% !important;
+                                border: none;
+                                display: inline-block;
+                                height: 36px;
+                                text-indent: -9999px;
+                                width: 36px;
+                            }
+        
+                
+.box-cabecera{
+    /*background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/fujimori-muerte/img/bg-portada.jpg') no-repeat center top;*/
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 9999999;    
+}
+    .box-cabecera video{
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;   
+    }
+    .ctn-box-operativo{
+        margin-bottom: 100px;
+        font-size: 0;
+        overflow: hidden;
+        position: relative;
+    }
+    .video-operativo{
+        max-width: 100%;
+        width: 100%;
+    }
+    .layer{
+        background: rgba(0,0,0,0.35);
+        bottom: 0;
+        font-size: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .box-main-titular{
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 450px;
+
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+        .box-main-titular img{
+            display: inline-block;
+            margin: 20% 0;
+            max-width: 200px;
+            vertical-align: top;
+        }
+        .titular{
+            color: #fff;
+            text-align: center;
+            margin-bottom: 33px;
+            /*text-shadow: 0 0 30px rgba(0,0,0,0.7);*/
+        }
+            .bajada h1{
+                color: #fff;
+                font: 52px/1.2 "Noto Serif KR", serif;
+                font-weight: 900;
+                margin: 0 auto;
+                padding: 0;
+                text-align: center;
+            }
+                .separador-titulo{
+                    background: #FF0000;
+                    height: 1px;
+                    margin: 20px auto;
+                    width: 100px;
+                }  
+
+.box-portada{
+    margin-bottom: 100px;
+    width: 100%;
+}  
+    .bg-portada{
+        /*background: url(/especiales/alan-garcia-una-vida-de-portada-ecpm/img/bg-portada.jpg?v4) no-repeat center -40px;*/
+        background-size: cover;
+        height: 100%;
+    }   
+
+    .btn-subir{
+        bottom: 10px;
+        cursor: pointer;
+        position: fixed;
+        right: 10px;
+    }
+        .btn-subir img{
+            max-width: 40px;
+        }
+
+.main{
+    background-color: #fff;
+    padding: 50px 0;   
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .ctn-main{
+        margin: 0 auto;
+        width: 980px;
+    }
+    h1{
+        color: #d72054;
+        font: 3.1em/1.2 "GuardianEgyp-Light";
+        margin: 20px auto 0;
+        padding: 20px 0 0;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        margin-top: 2vh;
+    }
+        h1 a{
+            color: #fff;
+            text-decoration: none;
+        }
+        h1 span{
+            color: #FF0000;
+            display: block;
+            font: 20px/1.4 'prelomedium';
+            margin: 10px auto 25px;
+        }
+    .main h2{
+        color: #7E7E7E;
+        font: 17px/1.7 'prelomedium';
+        font-weight: 500;
+        margin: 50px auto;
+        max-width: 400px;
+        text-align: center;
+    }
+        h2 span {
+            font-family: 'preloblack';
+        }
+        
+    h3{
+        color: #fff;
+        font: 17px/1.2 "Noto Serif KR", serif;
+        font-weight: 800;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 14px 0;
+        text-align: center;
+    }
+        h3 span{
+            display: block;
+            font-family: "actobook"; 
+            font-size: 17px;
+        }
+    h4{
+        font: 24px/1.3 "GuardianTextEgypt-Black";
+        margin: 0 auto;
+        
+    }
+    h5{
+        color: #fd5e53;
+        font: 4em/1.2 'actobold';
+        margin: 0 auto;
+        text-align: center;
+    }
+    p{
+        font: 18px/1.4 "GuardianEgyp-Regular";
+        max-width: 570px;
+        margin: 20px auto;
+        text-align: left;
+    }
+        span.resaltado{
+            background: #fd5d53;
+            color: #fff;
+        }
+    p.cita{
+        font: 1.2em/1.5 'actomedium_italic';
+        font-weight: bold;
+    } 
+    p.fuente{
+        font-size: 1em;
+    }  
+    h6{
+        background: #fff;
+        color: #808080;
+        font: 1em/1.2 'actobook';
+        margin: 0 auto;
+    }
+
+    .box-item{
+        display: inline-block;
+        margin: 100px 50px 110px;
+        max-width: 350px;
+        position: relative;
+        vertical-align: top;
+    }
+    .box-texto-item {
+        border: 1px solid #AC9130;
+        position: relative;
+        padding: 0 20px 0;
+    }
+        .box-item h4{
+            color: #fff;
+            font-family: "Noto Serif KR", serif;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 18px;
+            margin: 20px auto;
+            max-width: 300px;
+            text-align: left;
+        }
+            .box-item h4 a{
+                color: #fff;
+                font-size: 15px;
+                line-height: 22px;
+                text-align: left;
+                text-decoration: none;
+            }
+                .box-item h4 a:hover{
+                    text-decoration: underline;
+                }
+        .item{
+            display: inline-block;
+            margin: 0 auto;
+            max-width: 300px;
+            vertical-align: top;
+            margin-top: -100px;
+        }
+           
+            .item.juego{
+                max-width: 1000px;
+            }
+        .solo{
+            max-width: 100%;
+        }
+        .box-item p{
+            color: #fff;
+            font-size: 16px;
+            margin: 5px auto 20px;
+            max-width: 300px;
+        }
+        .oscuro{
+            background-color: #AC9130 !important;
+            color: #000 !important;
+            margin: 0 0 -15px;
+        }
+
+    .box-iframe{
+        margin: 80px auto 0;
+        max-width: 800px;
+    }
+
+.box-main-contador{
+    background-color: #FF0000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 250px;
+    padding: 20px 0;
+    position: relative;
+    z-index: 10;
+}
+    .box-main-contador p{
+        color: #fff;
+        font: 32px/1 'preloblack';
+        margin: 0 auto;
+        text-align: center;
+    }
+        .box-main-contador p span{
+            display: block;
+            font-size: 62px;
+        }
+        .box-main-contador img{
+            left: 50%;
+            max-width: 15px;            
+            position: absolute;            
+            top: -8px;
+            vertical-align: middle;
+
+            animation: pulse 1.5s infinite;
+        }
+            @keyframes pulse {
+                0% {
+                    opacity: 0;
+                }
+                50% {
+                    opacity: 1;
+                }
+                100%{
+                    opacity: 0;
+                }
+            }
+
+@media only screen and (max-width: 640px){
+
+    #social ul li a.wst{
+        display: block;
+    }    
+    .bajada h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.1em;
+    }
+
+    .box-cabecera{
+        background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/fujimori-muerte/img/bg-portada-movil.jpg) no-repeat center top;
+        background-size: cover;
+    }
+
+    .ctn-main{
+        width: 95%;
+    }
+    .box-main-titular{
+        top: 46%;
+        width: 98%;
+    }
+        .titular h1{
+            font-size: 45px;
+        }
+        .bajada{
+            border: none;
+            width: 100%;            
+        }
+            .bajada h2{
+                font-size: 22px;
+            }
+            
+    .box-alcalde{
+        width: 130px;
+    }
+    .movil{
+        display: block;
+        overflow: hidden;
+    }
+    .desktop{
+        display: none;
+    }
+
+    iframe{
+        height: 300px;
+    }
+    
+    #wst{
+        display: inline-block;
+    }
+
+    .full-height-minus-header {
+        /** height: calc(40vh - 50px) !important;**/
+    }
+
+    .fadein img{
+        height: 100%;
+        background-size: cover;
+        left: -50%;
+        width: 200%;
+    }
+
+    .cifras{
+        width: 100%;
+    }
+
+    h1 span{
+        display: block;
+    }
+    .border{
+        border: none;
+        padding: 0;
+    }
+
+    .box-main-titular img{
+        display: block;
+        margin: 40px 30px;
+    }
+    .box-item{
+        margin-bottom: 120px;
+    }
+        .box-item h4{
+            max-width: 250px;
+        }
+        .box-item p{
+            max-width: 250px;
+        }
+    .logo-comercio-negro{
+        display: none;
+    }
+    .ctn-header-interior .logo-ecdata-negro {
+        float: left;
+        margin: 10px;        
+    }
+    .box-iframe{
+        margin-bottom: 20px;
+    }
+    .main{
+        padding: 50px 20px;
+    }
+
+}
+
+
+/** Marshall **/
+
+.full-height {
+    height: 100vh
+}
+
+.full-height-minus-header {
+    height: 90vh;
+    position: relative;
+    z-index: 10;
+}
+.hed-video {
+    -o-object-fit: cover;
+    object-fit: cover;
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-transition: none;
+    transition: none;
+}
+
+/** grids **/
+
+.boardz ul{
+    /* flex-direction: column; */
+    flex: none !important;
+    /* justify-content: space-between; */
+    display: block;
+    list-style-type: none; 
+    padding: 4px 0px 4px 0px;
+    vertical-align: top;
+    width: 100%;
+}
+    .beautiful li{
+        background: #fff;
+        border-radius: 0 !important;
+        display: inline-block;
+        max-height: 488px;
+        max-width: 350px;
+        padding: 0 !important;
+        vertical-align: top;
+    }
+
+.main-notas{
+    display: block !important;
+}
+    .main-notas li{
+        overflow: hidden;
+        position: relative;
+    }
+        .main-notas li span{
+            background: #f5f206;
+            font: 1em/1 'actobold';
+            padding: 10px;
+            position: absolute;
+            text-transform: uppercase;
+            width: 100%;
+        }
+        .main-notas li h3{
+            bottom: 0;
+            position: absolute;
+        }
+
+            .main-notas li h3.documental::before { 
+                background: #ffca05;
+                color: #000;
+                content: "documental";
+                font: 0.8em/1 'actobold';
+                left: 0;
+                padding: 10px;
+                position: absolute;
+                text-transform: uppercase;
+                top: -40px;
+                width: 100%;
+            }
+            .main-notas li h3.reportaje::before { 
+                background: #ffca05;
+                color: #000;
+                content: "reportaje";
+                font: 0.8em/1 'actobold';
+                left: 0;
+                padding: 10px;
+                position: absolute;
+                text-transform: uppercase;
+                top: -40px;
+                width: 100%;
+            }
+            .main-notas li h3.especial::before { 
+                background: #ffca05;
+                color: #000;
+                content: "especial";
+                font: 0.8em/1 'actobold';
+                left: 0;
+                padding: 10px;
+                position: absolute;
+                text-transform: uppercase;
+                top: -40px;
+                width: 100%;
+            }
+
+.swiper-wrapper{
+        margin: 30px auto;
+    }
+        .swiper-slide img{
+            display: block;
+            margin: 0 auto;
+            max-width: 50px;
+        }
+        .swiper-slide.plata h4{
+            color: #959595;
+        }
+        .swiper-slide.bronce h4{
+            color: #a36d37;
+        }
+        .swiper-container{
+
+        }
+            .swiper-container h4{
+                color: #d8a301;
+                min-height: auto;
+                padding: 0;
+                text-align: center;
+            }
+            .swiper-container p{
+                margin: 0 auto;
+                text-align: center;
+            }
+            .swiper-container a{
+                color: #000;
+                display: block;
+                font: 1em/1 'actobold';
+                text-align: left;
+            }
+    
+    .swiper-pagination-bullet-active {
+        background: #d8a301 !important;
+    }
+
+img.logo-somos{
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+}
+p.frase{
+    font: 18px/1.4 "GuardianEgyp-Light";
+}
+    p.frase span{
+        font-family: "GuardianTextEgypt-Bold";
+    }
+
+span.credito{
+    font: 14px/1.2 'actobook';
+    display: block;
+    text-align: center;
+}
+
+.footer{
+    background: #000;
+}
+    .footer img{
+        display: block;
+        margin: 0 auto;
+        max-width: 100px;
+        padding: 15px 0;
+    }
+
+
+
+#videoBG{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+} 
+
+a.btn{
+    background-color: #AC9130;
+    color: #000;
+    display: block;
+    font: 18px/1.3 'actobook';
+    font-weight: bold;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-interior {
+    background: #000;
+    border-bottom: 1px solid #AC9130;
+    border-top: 1px solid #AC9130;
+    
+    left: 0;
+    position: fixed;
+    top: 0;    
+    width: 100%;
+    z-index: 101;
+    
+}
+    .header-interior.fixed {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 50px;
+    }
+    .ctn-header-interior{
+        max-width: 1085px;
+        margin: 0 auto;
+        position: relative;
+    }
+        .ctn-header-interior a{
+            text-decoration: none;
+        }
+        .logo-comercio-negro{  
+            left: 0;          
+            margin: 10px;
+            max-width: 100px;  
+            position: absolute;              
+        }
+        .logo-ecdata-negro{
+            margin: 10px auto;
+            max-width: 120px;            
+        }
+        #social-2{
+            margin: 10px;
+        }
+            #social-2 #fb{
+                background-size: 100%;
+                height: 25px;
+                width: 25px;
+            }
+            #social-2 #tw{
+                background-size: 100%;
+                height: 25px;
+                width: 25px;
+            }
+            #social-2 #wst{
+                background-size: 100%;
+                height: 25px;
+                width: 25px;
+            }
+
+img.flecha {
+    bottom: 50px;
+    cursor: pointer;
+    left: 50%;
+    margin-left: -25px;
+    max-width: 60px;
+    position: absolute;
+}

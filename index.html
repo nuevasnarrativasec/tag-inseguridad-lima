@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+      <!--Para que Google no indexe este index-->
+      <meta name="googlebot" content="noindex" />
+      <meta name="googlebot-news" content="nosnippet" />
+      <meta name="robots" content="noindex, nofollow" />
+      <!---->     
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="./css/style.css?v1"> 
+    <!-- endinject -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+
+     <!-- Open Graph -->
+     <meta property="og:type" content='website' />
+     <meta property="og:site_name" content='El Comercio.pe' />
+     <meta property="og:title" content='El Comercio' />
+     <meta property="og:description" content='' />
+     <meta property="og:url" content='' />
+     <meta property="og:image" content='' />
+     <!-- fin Open Graph -->
+ 
+     <!-- Twitter Card -->
+     <meta name="twitter:card" content="summary" />
+     <meta name="twitter:site" content="@elcomercio" />
+     <meta name="twitter:title" content='El Comercio' />
+     <meta name="twitter:description" content="" />
+     <meta name="twitter:creator" content="@elcomercio_peru">
+     <meta name="twitter:domain" content="elcomercio.pe">
+     <!-- fin Twitter Card -->
+ 
+     <meta name="keywords" content="" />
+ 
+     <meta name="language" content="es" />
+     <meta name="bi3dPubDate" content="2014-12-04T17:17:12-05:00" />
+     <meta name="robots" content="index,follow" />
+     <meta name='googlebot' content='index, follow' />
+     <meta name="organization" content="Empresa Editora El Comercio S.A." />
+     <link rel="publisher" href="https://plus.google.com/u/0/+elcomerciope/" />
+     <meta property="article:modified_time" content="2014-12-04T17:17:12-05:00" />
+     <meta property="article:section" content="El Comercio" />
+     <meta name="author" content="El Comercio" />
+     <meta name='Origen' content='El Comercio' />
+     <meta name="locality" content="Lima, Peru" />
+     <meta name="revisit-after" content="1 day" />
+     <meta property="og:site_name" content="EL COMERCIO" />
+     <link rel="canonical" href=""/>    
+
+</head>
+<body>
+
+    <div class="box-cabecera"> 
+        <div class="ctn-box-cabecera full-height-minus-header">            
+            <div class="box-main-titular">
+                <div class="bajada">
+                    <div class="separador-titulo"></div>
+                    <h1>La inseguridad en Lima <span>Problemas y soluciones</span></h1>          
+                    <div class="separador-titulo"></div>         
+                </div>                
+            </div>
+            <img class="flecha" src="./img/flecha-bajar.png" alt="" width="100%">            
+        </div>
+        <div class="box-main-contador">
+            <img src="./img/punto-blanco.png" alt="" width="100%">
+            <p>
+                <span id="day-counter">19 días</span>
+                sin solución
+            </p>
+        </div>
+        <video src="./video/video-portada.mp4" width="100%" muted autoplay loop></video>
+    </div>
+    
+    <div class="main">           
+        
+        <h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </h2>          
+        
+    
+    </div><!--main-->
+	   
+    <!-- flecha scroll-->
+    <script>
+        document.querySelector(".flecha").addEventListener("click", function() {
+            const targetPosition = document.querySelector(".main").offsetTop;
+            window.scrollTo({
+                top: targetPosition,
+                behavior: "smooth"
+            });
+        });
+
+    </script>
+
+    <!-- contador -->
+    <script>
+        function daysSince(dateString) {
+            const startDate = new Date(dateString); // Fecha de inicio
+            const today = new Date(); // Fecha actual
+            const timeDiff = today - startDate; // Diferencia en milisegundos
+            const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24)); // Diferencia en días
+            return daysDiff;
+        }
+    
+        function updateCounter() {
+            const days = daysSince("2024-09-28"); // Fecha de inicio
+            document.getElementById("day-counter").textContent = `${days} días`;
+        }
+    
+        
+        window.onload = updateCounter;
+    </script>
+
+</body>
+</html>
