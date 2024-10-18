@@ -230,10 +230,10 @@ body{
     .bajada h2,
     .main h2{
         color: #fff;
-        font: 17px/1.7 'prelomedium';
+        font: 19px / 1.6 'prelomedium';
         font-weight: 500;
         margin: 35px auto;
-        max-width: 400px;
+        max-width: 450px;
         text-align: center;
     }
         h2 span {
@@ -555,7 +555,7 @@ body{
 .full-height-minus-header {
     /*height: 100vh;*/
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 .hed-video {
     -o-object-fit: cover;
