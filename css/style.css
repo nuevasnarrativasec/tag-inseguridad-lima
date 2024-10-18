@@ -163,7 +163,7 @@ body{
         }
             .bajada h1{
                 color: #fff;
-                font: 52px/1.2 "Noto Serif KR", serif;
+                font: 38px/1.3 "Noto Serif KR", serif;
                 font-weight: 900;
                 margin: 0 auto;
                 max-width: 410px;
@@ -335,6 +335,7 @@ body{
             font-size: 16px;
             margin: 5px auto 20px;
             max-width: 300px;
+            text-shadow: 0px 0px 9px rgb(0, 0, 0, 0.6);
         }
         .oscuro{
             background-color: #AC9130 !important;
@@ -428,7 +429,7 @@ body{
         display: block;
     }    
     .bajada h1{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         max-width: 320px;
     }
     h2{
