@@ -12,19 +12,19 @@ body{
 
 @font-face {
     font-family: 'prelomedium';
-    src: url('../fonts/prelo-medium-webfont.woff2') format('woff2'),
-         url('../fonts/prelo-medium-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/tag-inseguridad-lima/fonts/prelo-medium-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/tag-inseguridad-lima/fonts/prelo-medium-webfont.woff') format('woff');
 }
 @font-face {
     font-family: 'prelosemibold';
-    src: url('../fonts/prelo-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/prelo-semibold-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/tag-inseguridad-lima/fonts/prelo-semibold-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/tag-inseguridad-lima/fonts/prelo-semibold-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'preloblack';
-    src: url('../fonts/prelo-black-webfont.woff2') format('woff2'),
-         url('../fonts/prelo-black-webfont.woff') format('woff');
+    src: url('https://nuevasnarrativasec.github.io/tag-inseguridad-lima/fonts/prelo-black-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/tag-inseguridad-lima/fonts/prelo-black-webfont.woff') format('woff');
 }
 
 
