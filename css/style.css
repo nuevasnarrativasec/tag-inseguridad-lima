@@ -149,7 +149,7 @@ body{
         top: 50%;
         transform: translate(-50%, -50%);*/
         margin: 0 auto;        
-        max-width: 500px;
+        max-width: 800px;
         padding: 50px 0;
         /* -ms-transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);*/
@@ -412,14 +412,16 @@ body{
         }
             .box-numeros-emergencia ul li h5{
                 color: #fff;
-                font: 25px / 1 'prelosemibold';
+                font: 18px/1.3 'prelosemibold';
                 margin: 0 auto;
-                min-height: 120px;
+                min-height: 220px;
+                text-align: left;
             }
                 .box-numeros-emergencia ul li h5 span{
                     color: #FF0000;
                     display: block;
-                    font: 64px/1 'preloblack';
+                    font: 24px/1 'preloblack';
+                    margin-bottom: 8px;
                 }
 
 @media only screen and (max-width: 640px){
@@ -528,12 +530,17 @@ body{
         padding: 50px 20px;
     }
     .box-numeros-emergencia ul li{
-        max-width: 120px;
-        padding: 20px 10px;
+        display: block;
+        margin-bottom: 20px;
+        max-width: 90%;
+        padding: 20px 10px;  
     }
         .box-numeros-emergencia ul li h5{
             font-size: 20px;
             min-height: 125px;
+        }
+        .box-numeros-emergencia ul li h5 span{
+            font: 32px / 1.2 'preloblack';
         }
 
 }
